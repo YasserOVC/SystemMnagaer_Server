@@ -1,0 +1,9 @@
+top -n 1 -b
+The top command is a real-time system monitoring tool that displays information about processes and resource usage, such as CPU, memory, and swap space. It provides a dynamic and interactive view of the system’s performance.
+
+We can include various options to customize the output or behavior of the command. One of the most important options of the top command that will be helpful to us is the -b, or batch mode. This mode makes the command behave non-interactively. We can also pair this command with the –n option, which specifies the number of iterations the top command runs and prints metrics for until it stops.
+
+As we can see, the output includes details of running processes such as the PID (process ID), user, CPU%, MEM%, and command. As we can see, the terminal we’re running for the example has PID 9, and it is a bash terminal taking up very little CPU and memory.
+
+:ض
+
