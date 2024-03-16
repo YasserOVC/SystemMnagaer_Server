@@ -838,3 +838,79 @@ snapfuse       fuse.snapfuse   92M   92M     0 100% /snap/gtk-common-themes/1535
 snapfuse       fuse.snapfuse   40M   40M     0 100% /snap/snapd/21184
 snapfuse       fuse.snapfuse  132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
 snapfuse       fuse.snapfuse  132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+Fri Mar 15 15:51:22 EET 2024
+ 15:51:22 up  4:16,  1 user,  load average: 0.30, 0.12, 0.09
+top - 15:51:22 up  4:16,  1 user,  load average: 0.30, 0.12, 0.09
+Tasks:  37 total,   1 running,  36 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  1.6 sy,  0.0 ni, 93.7 id,  0.0 wa,  0.0 hi,  3.2 si,  0.0 st
+MiB Mem :   3848.9 total,   2865.2 free,    482.5 used,    501.2 buff/cache
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3149.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  165864  11088   8040 S   6.7   0.3   7:06.84 systemd
+      2 root      20   0    2280   1300   1188 S   0.0   0.0   0:00.18 init-systemd(Ub
+      6 root      20   0    2280      4      0 S   0.0   0.0   0:00.00 init
+     71 root      19  -1   47812  14424  13392 S   0.0   0.4   0:01.35 systemd-journal
+     95 root      20   0   22224   6028   4536 S   0.0   0.2   0:01.45 systemd-udevd
+    114 root      20   0    4496    164     16 S   0.0   0.0   0:00.00 snapfuse
+    115 root      20   0    4852   1716   1244 S   0.0   0.0   0:01.94 snapfuse
+    116 root      20   0    4496    188     40 S   0.0   0.0   0:00.00 snapfuse
+    119 root      20   0    4628    160      8 S   0.0   0.0   0:00.00 snapfuse
+    122 root      20   0    4740   1744   1232 S   0.0   0.0   0:06.19 snapfuse
+    125 root      20   0    4496    188     36 S   0.0   0.0   0:00.00 snapfuse
+    126 root      20   0    4800   1744   1312 S   0.0   0.0   0:02.40 snapfuse
+    133 systemd+  20   0   25540  12360   8164 S   0.0   0.3   0:01.53 systemd-resolve
+    154 root      20   0    4308   2672   2432 S   0.0   0.1   0:00.07 cron
+    155 message+  20   0    8588   4624   4080 S   0.0   0.1   0:00.23 dbus-daemon
+    159 root      20   0   30100  19076  10284 S   0.0   0.5   0:00.14 networkd-dispat
+    160 syslog    20   0  222404   7084   4224 S   0.0   0.2   0:01.70 rsyslogd
+    161 root      20   0 1466424  39796  18932 S   0.0   1.0   0:04.60 snapd
+    165 root      20   0   15332   7444   6500 S   0.0   0.2   0:00.25 systemd-logind
+    239 root      20   0    4784   3332   3096 S   0.0   0.1   0:00.26 subiquity-serve
+    241 root      20   0  107220  21320  13220 S   0.0   0.5   0:00.11 unattended-upgr
+    244 root      20   0    3240   1080    988 S   0.0   0.0   0:00.00 agetty
+    246 root      20   0    3196   1104   1020 S   0.0   0.0   0:00.00 agetty
+    330 root      20   0    2288    112      0 S   0.0   0.0   0:00.00 SessionLeader
+    331 root      20   0    2304    116      0 S   0.0   0.0   0:03.22 Relay(332)
+    332 learn     20   0    6348   5532   3620 S   0.0   0.1   0:01.24 bash
+    333 root      20   0    7524   4852   3932 S   0.0   0.1   0:00.01 login
+    411 learn     20   0   16936   8964   7492 S   0.0   0.2   0:00.22 systemd
+    412 learn     20   0  103256   3408     20 S   0.0   0.1   0:00.00 (sd-pam)
+    418 learn     20   0    6124   4912   3336 S   0.0   0.1   0:00.03 bash
+    479 root      20   0 1033092  84304  26280 S   0.0   2.1   0:26.41 python3.10
+    497 root      20   0   44124  37600  10144 S   0.0   1.0   2:37.40 python3
+  13643 root      20   0  293004  20380  17480 S   0.0   0.5   0:00.18 packagekitd
+  13647 root      20   0  234496   6680   6048 S   0.0   0.2   0:00.08 polkitd
+  58333 learn     20   0    4916   3760   3308 S   0.0   0.1   0:00.02 bash
+  58354 learn     20   0    5048   3832   3192 S   0.0   0.1   0:00.00 bash
+  58532 learn     20   0    7816   3248   2884 R   0.0   0.1   0:00.00 top
+Fri Mar 15 15:51:22 EET 2024
+ 15:51:22 up  4:16,  1 user,  load average: 0.30, 0.12, 0.09
+               total        used        free      shared  buff/cache   available
+Mem:         3941276      494092     2933936        3080      513248     3225284
+Swap:        1048576           0     1048576
+Fri Mar 15 15:51:22 EET 2024
+ 15:51:22 up  4:16,  1 user,  load average: 0.30, 0.12, 0.09
+Filesystem     Type           Size  Used Avail Use% Mounted on
+none           tmpfs          1.9G  4.0K  1.9G   1% /mnt/wsl
+none           9p             168G  129G   40G  77% /usr/lib/wsl/drivers
+none           tmpfs          1.9G     0  1.9G   0% /usr/lib/modules
+none           overlay        1.9G     0  1.9G   0% /usr/lib/modules/5.15.146.1-microsoft-standard-WSL2
+/dev/sdc       ext4          1007G  1.6G  955G   1% /
+none           tmpfs          1.9G   92K  1.9G   1% /mnt/wslg
+none           overlay        1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs         rootfs         1.9G  1.9M  1.9G   1% /init
+none           tmpfs          1.9G  800K  1.9G   1% /run
+none           tmpfs          1.9G     0  1.9G   0% /run/lock
+none           tmpfs          1.9G     0  1.9G   0% /run/shm
+tmpfs          tmpfs          4.0M     0  4.0M   0% /sys/fs/cgroup
+none           overlay        1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none           overlay        1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\            9p             168G  129G   40G  77% /mnt/c
+snapfuse       fuse.snapfuse  128K  128K     0 100% /snap/bare/5
+snapfuse       fuse.snapfuse   74M   74M     0 100% /snap/core22/864
+snapfuse       fuse.snapfuse   41M   41M     0 100% /snap/snapd/20290
+snapfuse       fuse.snapfuse   92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse       fuse.snapfuse   40M   40M     0 100% /snap/snapd/21184
+snapfuse       fuse.snapfuse  132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+snapfuse       fuse.snapfuse  132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
