@@ -1,0 +1,15 @@
+sysmanager.sh
+  ├── welcomescreen
+  ├─── welcome.sh
+  └─── menu.sh
+       ├── syscar.sh
+       ├── syscarwel
+
+
+
+       ├── backup
+       │   ├── menufile.sh
+       │   └── menu.sh
+       ├── info
+       ├── LOG
+       ├── pro_archticture
